@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta charset="utf-8">
+		<title>Automation Solutionz</title>
+		<link rel="icon" href="images/Logo.ico">
+		<link rel="shortcut icon" href="images/Logo.ico" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/form.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/forms.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/tms-0.4.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider_wrapper')._TMS({
+					show:0,
+					pauseOnHover:false,
+					prevBu:'.prev',
+					nextBu:'.next',
+					playBu:false,
+					duration:800,
+					preset:'fade',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:false,
+					slideshow:8000,
+					numStatus:false,
+					banners: 'fade',
+					waitBannerAnimation:false,
+					progressBar:false
+				});
+			});
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+                    <p id="top_image"><a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo_main.png" alt="Gerald Harris attorney at law" width="250px"></a></p>
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">Home </a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">About</a><strong class="hover"></strong></li>
+								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">Services</a> <strong class="hover"></strong></li>
+								<li class=" men3"><a onClick="goToByScroll('page4'); return false;" href="#">Features</a> <strong class="hover"></strong></li>
+								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">Contact Us</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content">
+			<div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slider_wrapper">
+						<ul class="items">
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Cloud Testing Solution</h2>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2> Hybrid Automation Testing</h2>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Web Based Test Case Management </h2>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Defect Tracking</h2>
+									<!--img src="op.jpg" width="300" hieght="50"-->
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="socials">
+						<a href="https://www.facebook.com/automationsolutionz"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="http://www.linkedin.com/company/automation-solutionz"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page2" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>About Us</h3>
+						<div class="text3">
+							Automation Solutionz Inc is a company that posses leading-edge software testing technologies and expertise that
+							provides enterprise software testing solutions along with software development services to enhance product
+							performance at significantly lower cost.
+							From our experiences in the software testing profession over the last 10
+							years, we have developed a testing framework that has a combination that chooses the strengths of other framework
+                            types and mitigates their weaknesses.
+						</div>
+					</div>
+				</div>
+                <div class="grid_12">
+                <div class="slogan">
+                    <h3>Our Vision</h3>
+                    <div class="text3">
+                        To focus on creating solutions that deliver mobility, freedom and control via automation.
+                        To aim at delivering services which will open new avenues for our customers and allow them to work
+                        effectively and creatively.
+                    </div>
+                </div>
+            </div>
+                <div class="grid_12">
+                    <div class="slogan">
+                        <h3>Our Mission</h3>
+                        <div class="text3">
+                          We like to provide a challenging,professional and enjoyable work environment to our employees that
+                            develop them to his/her fullest potential while providing performance based rewards and benefits.This is one of the reasons why we enjoy a high employee retention rate.
+                            <br>
+                            We listen to customer requests, explore technological alternatives, and provide them with range of options.
+                            In addition, deliver an easy to use, manageable, and scalable solution with continuous support and development.
+                        </div>
+                    </div>
+                </div>
+
+            <div class="header_too">
+                <h3>WHY CHOOSE US?</h3>
+
+            <div class="cell3">
+                <div class="cell2">
+                    <div class="cell1">
+                        <div class="cell2a">
+                            <div class="cell3a">
+                                <h4>One-Stop-Shop</h4>
+                                <h5>The best part about choosing us is that :</h5>
+                                <br>
+                                <ul class="about_us">
+                                    <li class="about_li">you get all the services related to your web presence needs under one roof.</li>
+                                    <li class="about_li">When you choose us, you say bye bye to your worries of following up different companies for one common goal</li>
+                                    <li class="about_li">So now it's you who decides between sleepless nights and peace of mind.</li>
+                                </ul>
+                            </div>
+                            <h4>Competitive Pricing</h4>
+                            <h5>We offer high quality work matched by a superior customer service at an affordable price:</h5>
+
+                            <ul class="about_us">
+                                <li class="about_li">we abide by our agreement which means that you're not getting any surprises from us while your project is being given shape.</li>
+                                <li class="about_li">No changes in prices, no out-of-control budgets.</li>
+                                <li class="about_li">Our operations started in 1995 with a long term plan. We are not a part-time, independent contractors or students looking out for fast bucks.</li>
+
+                            </ul>
+
+
+                        </div>
+
+                        <h4>Customer Service</h4>
+                        <h5>We believe that a happy customer always means more and better business. To achieve:</h5>
+                        <ul class="about_us">
+                            <li class="about_li">we try to make the completion of your job an enjoyable experience</li>
+                            <li class="about_li">We keep you updated at every step of planning, design and integration process</li>
+                            <li class="about_li">We provide private access to your project and reports from day one</li>
+                            <li class="about_li">Our goal is to create a long lasting relationship with our clients, wherever they are located</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+                    <div class="cell3">
+                        <div class="cell2">
+                            <div class="cell1">
+                                <div class="cell2a">
+                                    <div class="cell3a">
+                                        <h4>We value:</h4>
+                                        <br>
+                                        <ul class="about_us">
+                                            <li class="about_li"><b>Ambition:</b> Work with the highest level of excitement and energy to stimulate growth and innovation.</li>
+                                            <li class="about_li"><b>Innovation:</b> Think beyond the boundaries to meet the needs of the company and its valued customers.</li>
+                                            <li class="about_li"><b>Professionalism:</b> Present skills and expertise with respect and understanding.</li>
+                                            <li class="about_li"><b>Reliability: </b>Integrate proven methods with innovative ideas and maintain a strong foundation on which customer solutions are developed.</li>
+                                        </ul>
+                                    </div>
+                                    <h4>Reduce test case creation time </h4>
+                                    <h5>We can also reduce test case creation time by 40% to 50%:</h5>
+
+                                    <ul class="about_us">
+                                        <li class="about_li">- Create/Manage test case from anywhere (Work PC, Mobile Devices, or Home) </li>
+                                        <li class="about_li">Use our advanced Web Based test set management system to plan your testing</li>
+                                    </ul>
+
+
+                                </div>
+
+                                <h4>Reduce total testing costs </h4>
+                                <h5>Automation Solutionz can reduce total testing costs by 50% to 60%:</h5>                                </h5>
+                                <ul class="about_us">
+                                    <li class="about_li">No additional cost for test case management and reporting tool</li>
+                                    <li class="about_li">No additional cost for Performance/Load testing tool</li>
+                                    <li class="about_li">Save execution and report cycle time by 60% to 70%</li>
+                                    <li class="about_li">Run/Analyse/Generate report from anywhere</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+		</div>
+        </div>
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Services</h3>
+						<div class="text2">
+                            We are a Canada based company with headquarters in <b>Kitchener Ontario</b>. Our test centers are located in <b>Bangladesh</b>. Our on-shore project management and off-shore test centers enable us to provide quality testing services at highly-competitive rates. Specializing in global services delivery, with teams in Bangladesh tightly integrated with their counterparts in Canada, we offer world-class software testing services for companies around the world.
+						</div>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="images/box1_img5.png" alt="">
+						<div class="text2"><a href="service1.html"><b>Testing</b></a></div>
+
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="images/box1_img1.png" alt="">
+						<div class="text2"><a href="service2.html"><b>Consulting</b></a></div>
+
+						</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="images/box1_img2.png" alt="">
+						<div class="text2"><a href="service3.html"><b>Training</b></a></div>
+
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="images/box1_img3.png" alt="">
+						<div class="text2"><a href="service4.html"><b>Software Development</b></a></div>
+
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+		<div id="page4" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<h3>Our Features</h3>
+					<div class="text3">
+						Our framework offers test case management and automation tools for developing and managing testing of any desktop, web or mobile application. The user interface and application structure was carefully designed to be easy-to-use and highly productive.
+
+						<br/><br/>Click on any feature to see details of our easy-to-use framework.<br/><br/>
+					</div>
+				</div>
+
+                <div class="cell3_h">
+                    <div class="cell2_h">
+                        <div class="cell1_h">
+                            <div class="cell2a">
+                                <div class="cell3a">
+                                    <h4>And,many more</h4>
+                                    </br>
+                                    </br>
+                                    <ul class="feature_li">
+                                        <li class="text4" >Cross platform and cross browser testing</li>
+                                        <li class="text4">Defect Tracking</li>
+                                        <li class="text4">3rd Party Integration</li>
+                                        <li class="text4"> Intelligent Reporting</li>
+                                    </ul>
+                                    </br>
+                                    </br>
+                                    <div class="text4">
+                                    <a href="others.html" style="text-align: center">See details>></a>
+                                    </div>
+                                </div>
+                                <h4>Hybrid Cloud based Automation Testing </h4>
+                                <div class="text4">
+                                    The hybrid framework is primarily designed to enhance efficiency during the development and provide reliable issue detection and efficient root-cause analysis....
+                                    </br>
+                                    </br>
+                                    <a href="hybrid.html" style="text-align: center">See details>></a>
+                                </div>
+
+
+                            </div>
+
+                            <h4>Web Based Test Case Management</h4>
+                            <div class="text4">
+                                Our comprehensive web-based test management feature efficiently helps you create, manage, organize and track software testing effort....
+                                </br>
+                                </br>
+                                <a href="web_based.html" style="text-align: center">See details>></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Get in Touch</h3>
+						<!--div class="text1">
+							Gyrto ivamus at magna non nunc tristique rhoncusu. Lliquam nibh ante, egestas id dictum a, commodo luctus mibero. Praesent faucibus malesuada faucibu. Monec laoreet metus id laoreet malesuadw.
+						</div-->
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="map">
+					<div class="grid_3">
+						<div class="text1">Address</div>
+						<address>
+							<dl>
+								<dt>Automation Solutionz<br>
+								1212 Countrystone Drive,<br>
+								Kitchener, N2N 3R4.
+								</dt>
+								<!--dd><span>Freephone:</span>+1 800 559 6580</dd>
+								<dd><span>Telephone:</span>+1 800 603 6035</dd>
+								<dd><span>FAX:</span>+1 800 889 9898</dd-->
+								<dd>E-mail: <a href="#" class="link-1">info@automationsolutionz.com</a></dd>
+								<!--dd>Skype: <a href="#" class="link-1">@skypename</a></dd-->
+							</dl>
+						</address>
+					</div>
+					<div class="grid_3">
+						<div class="text1">&nbsp;</div>
+						<figure class="">							
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2897.1506655188687!2d-80.55408059999999!3d43.436569199999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf67d24e190fd%3A0xa0233c15c1032339!2s1212+Countrystone+Dr!5e0!3m2!1sen!2s!4v1401304609740"></iframe>
+						</figure>
+					</div>
+					<div class="grid_5 prefix_1">
+						<div class="text1">Ask a Question</div>
+						<form id="form">
+						<div class="success_wrapper">
+						<div class="success">Contact form submitted!<br>
+						<strong>We will be in touch soon.</strong> </div></div>
+						<fieldset>
+						<label class="name">
+						<input type="text" value="Name:">
+						<br class="clear">
+						<span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
+						<label class="email">
+						<input type="text" value="E-mail:">
+						<br class="clear">
+						<span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
+						<label class="message">
+						<textarea>Message:</textarea>
+						<br class="clear">
+						<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+						<div class="clear"></div>
+						<div class="btns"><a data-type="submit" class="link1">Send</a>
+						<div class="clear"></div>
+						</div></fieldset></form>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="copy">
+						<a>&copy Automation Solutionz</a>
+						<!--
+						<a onClick="goToByScroll('page1'); return false;" href="#"><img src="images/footer_logo.png" alt=""></a>  &copy; 2013 | <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a><br>Professional free website templates <a href="http://www.websitetemplatesonline.com" target="_blank">at www.websitetemplatesonline.com</a>.
+						-->
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>

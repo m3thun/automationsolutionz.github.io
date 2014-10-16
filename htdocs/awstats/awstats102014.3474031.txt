@@ -1,0 +1,430 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2541                
+POS_VISITOR 8626                
+POS_DAY 12342               
+POS_DOMAIN 3294                
+POS_LOGIN 3525                
+POS_ROBOT 3680                
+POS_WORMS 4242                
+POS_EMAILSENDER 4373                
+POS_EMAILRECEIVER 4516                
+POS_SESSION 12753               
+POS_SIDER 12931               
+POS_FILETYPES 4651                
+POS_OS 4823                
+POS_BROWSER 4947                
+POS_SCREENSIZE 5276                
+POS_UNKNOWNREFERER 5350                
+POS_UNKNOWNREFERERBROWSER 6169                
+POS_ORIGIN 6836                
+POS_SEREFERRALS 6975                
+POS_PAGEREFS 7142                
+POS_SEARCHWORDS 7710                
+POS_KEYWORDS 7862                
+POS_MISC 2205                
+POS_ERRORS 7921                
+POS_CLUSTER 3381                
+POS_SIDER_404 8021                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141015232750 16 2506 9424207101767
+FirstTime 20141001005433
+LastTime 20141015232750
+LastUpdate 20141016023230 16 0 16 0 0
+TotalVisits 86                  
+TotalUnique 79                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 75 1020851 12 36 343795
+1 3 54 644331 9 9 103818
+2 2 11 199062 8 8 27001
+3 18 78 933231 13 13 40304
+4 4 52 608682 18 24 134302
+5 2 28 321519 6 11 173886
+6 1 10 178352 7 7 20844
+7 3 75 779706 13 14 73193
+8 4 53 648928 15 16 75923
+9 6 43 510344 19 30 163123
+10 23 77 908212 13 39 384933
+11 4 34 369365 8 16 46004
+12 7 55 636610 17 17 132997
+13 1 25 300723 8 11 57864
+14 10 49 541834 14 15 107632
+15 2 20 356704 18 31 109114
+16 0 0 0 33 36 281562
+17 1 1 20710 6 8 12431
+18 1 2 34236 8 10 51286
+19 3 50 574437 7 7 27576
+20 13 51 556314 6 11 28324
+21 7 60 696366 11 12 106490
+22 7 8 113688 20 24 227659
+23 2 2 41420 7 8 46058
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 136 913 10995625
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 165 1098552 20141015112351 14
+\wbot[\/\-] 93 796342 20141014161626 24
+baiduspider 47 323660 20141015190938 2
+robot 31 122618 20141013092552 14
+crawl 20 161774 20141013163541 1
+mj12bot 12 70867 20141003124853 3
+unknown 10 1340 20141015093212 10
+commons\-httpclient 2 108532 20141011103532 0
+exabot 2 134 20141003112110 1
+surveybot 2 20844 20141003090818 1
+yandex 2 268 20141002161521 2
+netcraft 1 20710 20141008084752 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 1 9 0 0
+css 187 833321 0 0
+png 186 1899958 0 0
+ico 9 121734 0 0
+html 135 1943702 0 0
+js 319 6193633 0 0
+gif 76 3268 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 25
+winlong 2
+winxp 110
+win2003 11
+winnt 683
+linuxubuntu 25
+Unknown 48
+linux 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 21
+firefox32.0 26
+msie6.0 4
+firefox28.0 19
+opera 2
+firefox21.0 4
+firefox29.0 19
+firefox3.5.2 2
+firefox3.6.15 100
+firefox2.0.0.13 1
+msie8.0 3
+msie7.0 11
+firefox22.0 1
+firefox14.0.1 9
+msie10.0 5
+firefox6.0 4
+firefox3.6.3 1
+msie9.0 4
+Unknown 30
+safari 653
+firefox15.0.1 12
+netscape 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20141003103820
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20141006185448
+- 20141015221117
+HTTPClient/1.0_(2.3.4.1,_ruby_1.9.3_(2014-05-14)) 20141014210401
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141013092215
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.3.0.1052_Mobile_Safari/537.35_ 20141012073006
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141015221508
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20141007205553
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20141006084553
+NerdyBot 20141014103817
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+HTTPClient/1.0_(2.3.4.1,_ruby_1.9.3_(2014-05-14)) 20141014210401
+- 20141015221117
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141013092215
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20141006185448
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141015221508
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20141006084553
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20141007205553
+NerdyBot 20141014103817
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 66 85
+From1 0 0
+From2 12 12
+From3 27 27
+From4 31 789
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+baidu 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://semalt.semalt.com/crawler.php 15 15
+http://www.fantasyclub.com.br/sitemap-minecraft-baby-creeper-mod-ad01i 2 2
+http://africa.sos1.tel 2 2
+http://forums.udacity.com/users/330182904/sazid4199 1 1
+http://bd.linkedin.com 1 1
+http://serranosistemas.com.br 1 1
+http://135.23.123.206:8080/Home/Login/ 1 1
+http://h2monline.com 1 1
+http://automaticjammaker.com 1 1
+http://privhosting.com 1 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 13 43003
+404 13 7475
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 12
+/wp-includes/css/admin-bar.css 1 -
+/Our_product.html 1 -
+/location.html 1 -
+/wp-content/themes/rfx/ 1 -
+/admin.php 1 -
+/cgi-bin/php5.cgi 1 -
+/blog 1 http://automationsolutionz.com/blog
+/administrator/index.php 1 -
+/wp-login.php 2 -
+//feed/ 1 -
+/engine/engine.php 1 -
+/framework-diagram.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+69.58.178.58 10 10 91175 20141007205602
+192.34.58.199 8 22 233841 20141005002200
+198.211.110.246 8 22 233841 20141011031338
+192.81.213.112 8 22 233841 20141011031717
+192.241.142.228 8 22 233841 20141005143513
+38.100.21.69 7 11 65030 20141014102551
+188.92.76.167 4 4 0 20141011120807
+203.83.169.58 3 27 324358 20141013092246
+69.30.241.10 2 2 24648 20141004222540
+123.49.42.220 2 24 292794 20141013111153
+192.99.10.110 1 1 20710 20141014210401
+54.190.131.199 1 1 20710 20141010114445
+5.9.247.23 1 1 20710 20141005205401
+61.135.190.105 0 5 143579 
+79.113.216.190 1 1 20710 20141015221117
+146.148.58.106 1 1 20710 20141001103744
+103.225.231.30 1 25 300723 20141003085537
+103.1.69.64 1 7 143023 20141003004007
+150.70.75.213 1 1 20710 20141007121238
+173.252.103.7 0 1 1852 
+107.178.200.50 0 1 13526 
+220.181.108.77 0 1 10646 
+95.94.212.252 1 26 287283 20141009145729
+173.252.103.1 0 2 2671 
+46.4.124.178 1 1 20710 20141015232750 20141015232750 /
+54.188.23.95 2 2 41420 20141005213202
+178.32.5.32 1 1 20710 20141011043159
+202.46.63.209 1 1 0 20141008194208
+146.148.82.202 1 1 20710 20141012103759
+79.59.169.98 1 25 287240 20141010042803
+115.115.219.170 1 34 287627 20141001015840
+125.212.38.84 2 26 300732 20141008042004
+177.42.26.177 1 25 287240 20141014194705
+173.252.103.3 0 1 3111 
+150.70.97.115 1 1 20710 20141007120726
+89.152.205.98 1 26 287283 20141004050453
+119.30.45.117 1 15 204796 20141012073004
+146.148.41.122 1 1 20710 20141011103800
+220.181.108.121 0 1 771 
+220.181.108.93 0 1 10646 
+61.135.190.223 2 11 199062 20141009153147
+61.135.190.221 0 3 189061 
+187.127.12.150 1 26 287283 20141009215708
+61.135.190.100 0 1 92633 
+146.148.84.233 1 1 20710 20141004103925
+220.181.108.115 0 2 10732 
+130.211.158.241 1 1 20710 20141008103919
+186.237.129.84 1 24 287197 20141007120554
+146.148.82.158 1 1 20710 20141007103900
+190.237.88.82 1 26 287283 20141001215949
+50.112.83.218 1 1 20710 20141007234105
+61.135.190.220 2 16 342641 20141008030847
+179.232.135.81 1 26 287283 20141001005433
+130.211.120.87 1 1 20710 20141014103817
+54.187.7.109 1 3 120431 20141002202541
+107.178.200.49 1 1 20710 20141006185447
+173.255.114.94 1 1 20710 20141002103500
+5.56.63.54 1 1 20710 20141006084553
+150.70.173.41 1 1 20710 20141001020234
+66.249.81.96 1 2 34236 20141014051722
+190.221.199.153 1 24 287197 20141006191505
+202.46.55.116 1 1 6157 20141009222405
+202.46.52.137 1 1 20710 20141009212436
+103.225.229.2 1 24 287197 20141013032127
+89.153.196.201 1 26 287283 20141012124012
+61.135.190.101 2 10 69546 20141014001413
+66.249.84.70 1 2 34236 20141014110210
+146.148.68.230 1 1 20710 20141005103859
+54.189.201.69 2 2 41420 20141015221508
+66.249.92.19 1 1 20710 20141014120710
+130.211.114.153 1 1 20710 20141013103745
+50.112.221.60 1 1 20710 20141013222704
+146.148.80.217 1 1 20710 20141006103909
+151.52.62.206 1 34 287627 20141013075227
+177.207.84.100 1 26 287283 20141010071516
+220.181.108.92 0 1 1510 
+61.135.190.104 1 9 85719 20141012023808
+130.211.126.236 1 1 20710 20141010103800
+54.242.166.181 1 1 20710 20141013174812
+220.181.108.95 0 1 5366 
+54.184.130.181 1 1 20710 20141011213655
+220.181.108.112 0 2 2281 
+220.181.108.163 0 1 771 
+114.130.28.148 1 26 306785 20141010084941
+61.135.190.102 0 9 157642 
+177.194.236.9 1 29 287412 20141005204057
+216.172.56.37 1 1 20710 20141006081543
+146.148.86.166 1 1 20710 20141003103820
+146.148.50.238 1 1 20710 20141009103916
+148.229.31.197 1 25 287240 20141001115543
+220.181.108.89 0 1 1510 
+54.190.29.236 1 1 20710 20141001214535
+27.147.204.154 1 25 300723 20141002132943
+61.135.190.103 2 9 102634 20141011095714
+190.11.61.7 1 34 287627 20141002102835
+61.135.190.224 1 27 401003 20141010013157
+220.181.108.97 0 1 10646 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20141001 7 114 1211563 7
+20141002 5 73 907843 5
+20141003 4 34 485166 4
+20141004 5 43 529286 4
+20141005 23 88 995576 8
+20141006 6 39 561915 6
+20141007 15 38 461212 6
+20141008 5 38 499794 4
+20141009 6 69 818788 6
+20141010 6 89 1101080 6
+20141011 22 59 708164 7
+20141012 4 52 691141 4
+20141013 10 116 1261740 7
+20141014 14 53 661224 8
+20141015 4 8 101133 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+30s-2mn 3
+0s-30s 80
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 91 1760350 85 76
+/service4.html 7 20475 0 1
+/hybrid.html 7 43099 1 3
+/others.html 6 29160 0 1
+/service3.html 6 12582 0 0
+/web_based.html 6 42192 0 1
+/service2.html 6 12216 0 1
+/service1.html 6 23628 0 1
+/bat/MailHandler.php 1 9 0 1
+END_SIDER

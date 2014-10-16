@@ -1,0 +1,411 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2522                
+POS_VISITOR 8377                
+POS_DAY 11013               
+POS_DOMAIN 3243                
+POS_LOGIN 3472                
+POS_ROBOT 3627                
+POS_WORMS 4124                
+POS_EMAILSENDER 4255                
+POS_EMAILRECEIVER 4398                
+POS_SESSION 11654               
+POS_SIDER 11821               
+POS_FILETYPES 4533                
+POS_OS 4709                
+POS_BROWSER 4819                
+POS_SCREENSIZE 5142                
+POS_UNKNOWNREFERER 5216                
+POS_UNKNOWNREFERERBROWSER 5805                
+POS_ORIGIN 6191                
+POS_SEREFERRALS 6326                
+POS_PAGEREFS 6481                
+POS_SEARCHWORDS 6828                
+POS_KEYWORDS 7006                
+POS_MISC 2186                
+POS_ERRORS 7091                
+POS_CLUSTER 3328                
+POS_SIDER_404 7203                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140201002223 1 0 8049143637102
+FirstTime 0
+LastTime 20140131084328
+LastUpdate 20140202024930 1 0 0 0 0
+TotalVisits 59                  
+TotalUnique 55                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 72                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 14061 11 12 71753
+1 6 126 1141117 6 8 16629
+2 0 38 321419 4 5 28390
+3 1 1 14061 4 8 35487
+4 1 4 60308 5 6 56378
+5 5 81 377663 7 45 153325
+6 4 80 699082 8 16 59649
+7 2 38 341612 5 6 24787
+8 5 89 893923 7 15 150650
+9 6 50 498279 10 10 71857
+10 1 1 14061 12 45 189777
+11 5 46 437971 11 17 68227
+12 8 125 1121053 7 13 39703
+13 1 1 14061 13 19 70259
+14 2 40 349541 7 9 70573
+15 2 40 349541 53 68 535421
+16 2 78 670960 25 32 206609
+17 2 5 74369 2 8 149645
+18 2 8 120616 11 12 45019
+19 3 3 42183 1 2 575
+20 4 21 296345 7 7 57087
+21 3 7 59042 6 9 17204
+22 2 40 349541 4 4 1418
+23 0 0 0 6 9 15613
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 68 923 8260809
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+yandex 121 933252 20140131231354 39
+googlebot 90 602729 20140130180322 16
+\wbot[\/\-] 17 44059 20140126183532 14
+msnbot 5 942 20140122005201 2
+robot 5 28524 20140123063334 3
+surveybot 4 28390 20140126095346 2
+unknown 4 536 20140120131022 4
+spider 2 28122 20140126164748 0
+crawl 2 14195 20140131014659 1
+nutch 2 14195 20140108065444 1
+python 1 134 20140117001814 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 141 540024 0 0
+htc 4 162692 0 0
+png 225 678900 0 0
+html 64 871782 0 0
+js 215 3893805 0 0
+jpg 253 2112746 0 0
+gif 21 860 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 43
+winxp 38
+winlong 1
+win2003 50
+winnt 590
+Unknown 43
+linux 158
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+msie6.0 1
+firefox20.0 1
+firefox17.0 1
+firefox26.0 39
+opera 35
+firefox21.0 38
+firefox10.0.1 1
+firefox7.0.1 2
+firefox2.0.0.12 1
+firefox25.0 1
+mozilla 80
+msie7.0 69
+firefox14.0.1 2
+firefox22.0 1
+firefox6.0 3
+firefox3.6.3 1
+firefox3.0.19 1
+Unknown 5
+safari 602
+firefox11.0 39
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+- 20140127082314
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.2.13221/34.1000;_U;_en)_Presto/2.8.119_Version/11.10 20140127084327
+Robosourcer/1.0 20140117001752
+Mozilla/4.0_(compatible) 20140119015538
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140111115153
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140126101237
+classbot_(_http://allclasses.com) 20140114143534
+Mozilla/3.0_(compatible;_Indy_Library) 20140109210050
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+- 20140127082314
+Robosourcer/1.0 20140117001752
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140111115153
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140126101237
+classbot_(_http://allclasses.com) 20140114143534
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 46 89
+From1 1 1
+From2 1 1
+From3 9 9
+From4 11 823
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.linkedin.com/lite/external-redirect 5 5
+http://automationsolutionsofwi.com 1 1
+http://www.linkedin.com/company/3581947 1 1
+http://m.facebook.com/l.php 1 1
+http://www.ausergrubhof.info 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+automationsolutionz.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+automationsolutionz.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 3 650
+206 75 409257
+404 54 31050
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 27
+/drupal 1 http://automationsolutionz.com/drupal
+/location.html 2 -
+/user 1 automationsolutionz.com
+/js/dist/jquery-migrate.min.map 2 http://www.automationsolutionz.com/
+/js/jquery.min.map 2 http://www.automationsolutionz.com/
+/image/40695024.png 1 -
+/m/maps 1 -
+/image/75575679_scaled_979x634.png 3 -
+/wp 1 http://automationsolutionz.com/wp
+/contact-us.html 4 -
+/Our_product.html 7 -
+/features.html 2 -
+/administrator/ 1 automationsolutionz.com
+/maps 3 -
+/administrator 1 -
+/services.html 9 -
+/joomla 1 http://automationsolutionz.com/joomla
+/wordpress 1 http://automationsolutionz.com/wordpress
+/index.php 2 -
+/blog 1 http://automationsolutionz.com/blog
+/Contact_Us.html 1 -
+/components/com_content/router.php 2 -
+/wp-login.php 1 automationsolutionz.com
+/about-us.html 1 -
+/framework-diagram.html 1 -
+/phpmyadmin/ 1 automationsolutionz.com/phpmyadmin
+/transit 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 72
+205.178.190.236 5 46 436032 20140108124904
+208.68.38.202 3 9 134677 20140127173713
+176.195.249.242 3 20 282284 20140102202304
+66.249.84.70 2 2 28122 20140125225427
+180.234.218.157 2 78 670960 20140112011104
+37.57.231.122 2 2 28122 20140125114143
+69.58.178.58 2 2 28122 20140111115342
+72.14.199.11 2 2 28122 20140127093903
+118.179.151.67 1 40 338591 20140127082133
+88.101.58.14 1 1 14061 20140109210050
+194.154.83.18 1 1 14061 20140106190816
+208.65.73.114 1 39 335480 20140107163946
+69.171.246.113 0 6 22070 
+166.78.181.113 1 1 14061 20140105164836
+117.18.231.56 1 39 335480 20140121155236
+42.0.5.112 0 3 0 
+69.171.246.112 0 11 167314 
+192.34.58.199 1 4 60308 20140122181831
+199.30.24.36 0 38 321419 
+110.172.31.225 1 39 335480 20140130053359
+42.0.5.67 0 6 0 
+31.184.236.94 1 1 14061 20140119062454
+42.0.5.98 0 8 68971 
+208.65.73.143 1 39 335480 20140122141657
+193.105.210.216 1 1 14061 20140112053233
+42.0.5.124 0 5 34979 
+54.212.115.224 1 1 14061 20140110031226
+117.221.45.139 1 12 188146 20140131084328
+198.211.106.56 1 4 60308 20140129095240
+184.22.42.196 1 1 14061 20140106063055
+184.72.208.225 1 1 14061 20140112094933
+42.0.5.125 0 6 28775 
+42.0.5.118 0 6 42289 
+192.241.151.63 1 4 60308 20140117185040
+193.105.210.174 1 1 14061 20140120131022
+54.244.156.84 1 1 14061 20140103213706
+82.145.220.20 1 34 315398 20140127084325
+91.207.5.38 1 1 14061 20140126070951
+195.74.65.22 1 1 14061 20140127120814
+49.248.116.42 1 39 335480 20140120015113
+69.171.246.116 0 3 24779 
+99.225.209.177 1 39 335480 20140110112325
+173.252.113.115 0 1 23666 
+23.239.196.71 1 1 14061 20140103190703
+220.227.148.45 1 39 335480 20140128065732
+200.120.185.179 1 1 14061 20140107080939
+223.239.197.195 1 39 335480 20140120064152
+38.100.21.62 1 5 30920 20140114212237
+198.199.86.202 1 4 60308 20140131041326
+42.0.5.89 0 6 0 
+149.210.156.137 1 1 14061 20140107153027
+162.213.42.135 1 1 14061 20140117001752
+119.30.39.245 1 37 327551 20140115071531
+114.130.65.16 1 39 335480 20140113095456
+5.56.63.56 1 1 14061 20140126101237
+198.199.120.94 1 4 60308 20140126013846
+172.246.147.196 1 1 14061 20140119015538
+194.242.103.157 1 1 14061 20140117082825
+42.0.5.65 0 6 0 
+66.249.93.212 1 1 14061 20140126195831
+42.0.5.16 0 7 19265 
+180.234.94.102 1 39 335480 20140127124917
+42.0.5.66 0 2 0 
+208.68.38.125 1 4 60308 20140121012936
+42.0.5.76 1 9 0 20140120051859
+198.211.102.42 1 4 60308 20140124092813
+42.0.5.55 0 7 0 
+69.171.246.115 1 19 121317 20140122125758
+42.0.5.11 1 7 141201 20140111225710
+109.251.14.7 1 1 14061 20140113090434
+199.30.25.37 0 38 321419 
+4.53.51.199 1 1 14061 20140114143534
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20140102 3 20 282284 1
+20140103 2 40 349541 2
+20140105 1 1 14061 1
+20140106 2 2 28122 2
+20140107 3 41 363602 3
+20140108 5 46 436032 1
+20140109 1 1 14061 1
+20140110 2 40 349541 2
+20140111 3 41 363602 2
+20140112 4 80 699082 3
+20140113 2 40 349541 2
+20140114 2 44 366400 2
+20140115 1 37 327551 1
+20140117 3 6 88430 3
+20140119 3 6 88430 3
+20140120 6 120 713143 6
+20140121 2 43 395788 2
+20140122 4 83 745329 4
+20140124 1 4 60308 1
+20140125 2 2 28122 2
+20140126 4 7 102491 4
+20140127 7 121 1115626 6
+20140128 1 39 335480 1
+20140129 1 4 60308 1
+20140130 1 39 335480 1
+20140131 2 16 248454 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 56
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 64 871782 59 58
+/js/PIE.htc 4 162692 0 1
+END_SIDER

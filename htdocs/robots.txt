@@ -1,0 +1,6 @@
+# Robots.txt file from http://www.0000ush.wcomhost.com
+
+Sitemap: http://www.0000ush.wcomhost.com/sitemap.xml
+
+User-agent: *
+Disallow:
