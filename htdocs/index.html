@@ -8,61 +8,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/form.css">
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery-migrate-1.1.1.js"></script>
-		<script src="js/superfish.js"></script>
-		<script src="js/forms.js"></script>
-		<script src="js/jquery.ui.totop.js"></script>
-		<script src="js/jquery.equalheights.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/jquery.ui.totop.js"></script>
-		<script src="js/tms-0.4.1.js"></script>
-		<script>
-			$(document).ready(function(){
-				$('.slider_wrapper')._TMS({
-					show:0,
-					pauseOnHover:false,
-					prevBu:'.prev',
-					nextBu:'.next',
-					playBu:false,
-					duration:800,
-					preset:'fade',
-					pagination:true,//'.pagination',true,'<ul></ul>'
-					pagNums:false,
-					slideshow:8000,
-					numStatus:false,
-					banners: 'fade',
-					waitBannerAnimation:false,
-					progressBar:false
-				});
-			});
-			$(document).ready(function(){
-				!function(){
-			var map=[]
-			 ,names=[]
-			 ,win=$(window)
-			 ,header=$('header')
-			 ,currClass
-			$('.content').each(function(n){
-			 map[n]=this.offsetTop
-			 names[n]=$(this).attr('id')
-			})
-			win
-			 .on('scroll',function(){
-				var i=0
-				while(map[i++]<=win.scrollTop());
-				if(currClass!==names[i-2])
-				currClass=names[i-2]
-				header.removeAttr("class").addClass(names[i-2])
-			 })
-			}(); });
-					function goToByScroll(id){
-				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
-				}
-				$(document).ready(function(){
-					$().UItoTop({ easingType: 'easeOutQuart' });
-				});
-		</script>
+
 		<!--[if lt IE 8]>
 			<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -76,7 +22,9 @@
 		<![endif]-->
 	</head>
 	<body class="">
-<!--==============================header=================================-->
+    <!--<a href="https://plus.google.com/105835097279404675892" rel="publisher">Google+</a>-->
+
+    <!--==============================header=================================-->
 		<header class="page1">
 			<div class="container_12">
 				<div class="grid_12">
@@ -102,40 +50,16 @@
 			<div class="ic"></div>
 			<div class="container_12">
 				<div class="grid_12">
-					<div class="slider_wrapper">
-						<ul class="items">
-							<li>
-								<img src="images/spacer.gif" alt="">
-								<div class="caption banner">
-									<h2>Cloud Testing Solution</h2>
-								</div>
-							</li>
-							<li>
-								<img src="images/spacer.gif" alt="">
-								<div class="caption banner">
-									<h2> Hybrid Automation Testing</h2>
-								</div>
-							</li>
-							<li>
-								<img src="images/spacer.gif" alt="">
-								<div class="caption banner">
-									<h2>Web Based Test Case Management </h2>
-								</div>
-							</li>
-							<li>
-								<img src="images/spacer.gif" alt="">
-								<div class="caption banner">
-									<h2>Defect Tracking</h2>
-									<!--img src="op.jpg" width="300" hieght="50"-->
-								</div>
-							</li>
-						</ul>
-					</div>
+                    <div>
+                        <h2>
+                            <span id="site_brief_header"></span>
+                        </h2>
+                    </div>
 					<div class="socials">
 						<a href="https://www.facebook.com/automationsolutionz"></a>
 						<a href="#"></a>
-						<a href="#"></a>
-						<a href="http://www.linkedin.com/company/automation-solutionz"></a>
+                        <a href="https://plus.google.com/105835097279404675892" rel="publisher">Google+</a>
+                        <a href="http://www.linkedin.com/company/automation-solutionz"></a>
 					</div>
 				</div>
 			</div>
@@ -169,7 +93,7 @@
                     <div class="slogan">
                         <h3>Our Mission</h3>
                         <div class="text3">
-                          We like to provide a challenging,professional and enjoyable work environment to our employees that
+                            We like to provide a challenging,professional and enjoyable work environment to our employees that
                             develop them to his/her fullest potential while providing performance based rewards and benefits.This is one of the reasons why we enjoy a high employee retention rate.
                             <br>
                             We listen to customer requests, explore technological alternatives, and provide them with range of options.
@@ -179,7 +103,7 @@
                 </div>
 
             <div class="header_too">
-                <h3>WHY CHOOSE US?</h3>
+                <h3>Why us?</h3>
 
             <div class="cell3">
                 <div class="cell2">
@@ -187,10 +111,10 @@
                         <div class="cell2a">
                             <div class="cell3a">
                                 <h4>One-Stop-Shop</h4>
-                                <h5>The best part about choosing us is that :</h5>
+                                <h5>The best part about choosing us:</h5>
                                 <br>
                                 <ul class="about_us">
-                                    <li class="about_li">you get all the services related to your web presence needs under one roof.</li>
+                                    <li class="about_li">You get all the services related to your web presence needs under one roof.</li>
                                     <li class="about_li">When you choose us, you say bye bye to your worries of following up different companies for one common goal</li>
                                     <li class="about_li">So now it's you who decides between sleepless nights and peace of mind.</li>
                                 </ul>
@@ -199,7 +123,7 @@
                             <h5>We offer high quality work matched by a superior customer service at an affordable price:</h5>
 
                             <ul class="about_us">
-                                <li class="about_li">we abide by our agreement which means that you're not getting any surprises from us while your project is being given shape.</li>
+                                <li class="about_li">We abide by our agreement which means that you're not getting any surprises from us while your project is being given shape.</li>
                                 <li class="about_li">No changes in prices, no out-of-control budgets.</li>
                                 <li class="about_li">Our operations started in 1995 with a long term plan. We are not a part-time, independent contractors or students looking out for fast bucks.</li>
 
@@ -211,7 +135,7 @@
                         <h4>Customer Service</h4>
                         <h5>We believe that a happy customer always means more and better business. To achieve:</h5>
                         <ul class="about_us">
-                            <li class="about_li">we try to make the completion of your job an enjoyable experience</li>
+                            <li class="about_li">We try to make the completion of your job an enjoyable experience</li>
                             <li class="about_li">We keep you updated at every step of planning, design and integration process</li>
                             <li class="about_li">We provide private access to your project and reports from day one</li>
                             <li class="about_li">Our goal is to create a long lasting relationship with our clients, wherever they are located</li>
@@ -239,7 +163,7 @@
                                     <h5>We can also reduce test case creation time by 40% to 50%:</h5>
 
                                     <ul class="about_us">
-                                        <li class="about_li">- Create/Manage test case from anywhere (Work PC, Mobile Devices, or Home) </li>
+                                        <li class="about_li">Create/Manage test case from anywhere (Work PC, Mobile Devices, or Home) </li>
                                         <li class="about_li">Use our advanced Web Based test set management system to plan your testing</li>
                                     </ul>
 
@@ -329,7 +253,7 @@
                                     </br>
                                     </br>
                                     <div class="text4">
-                                    <a href="others.html" style="text-align: center">See details>></a>
+                                    <a href="others.html" style="text-align: center">Details &rarr;</a>
                                     </div>
                                 </div>
                                 <h4>Hybrid Cloud based Automation Testing </h4>
@@ -337,7 +261,7 @@
                                     The hybrid framework is primarily designed to enhance efficiency during the development and provide reliable issue detection and efficient root-cause analysis....
                                     </br>
                                     </br>
-                                    <a href="hybrid.html" style="text-align: center">See details>></a>
+                                    <a href="hybrid.html" style="text-align: center">Details &rarr;</a>
                                 </div>
 
 
@@ -348,7 +272,7 @@
                                 Our comprehensive web-based test management feature efficiently helps you create, manage, organize and track software testing effort....
                                 </br>
                                 </br>
-                                <a href="web_based.html" style="text-align: center">See details>></a>
+                                <a href="web_based.html" style="text-align: center">Details &rarr;</a>
                             </div>
 
                         </div>
@@ -432,5 +356,76 @@
 				<div class="clear"></div>
 			</div>
 		</footer>
+
+    <!-- Always include scripts at the bottom of the body element so that the page loads faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script src="js/typed.js"></script>
+
+    <script>
+        function goToByScroll(id){
+            $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+        }
+        $(document).ready(function(){
+            $('.slider_wrapper')._TMS({
+                show:0,
+                pauseOnHover:false,
+                prevBu:'.prev',
+                nextBu:'.next',
+                playBu:false,
+                duration:800,
+                preset:'fade',
+                pagination:true,//'.pagination',true,'<ul></ul>'
+                pagNums:false,
+                slideshow:8000,
+                numStatus:false,
+                banners: 'fade',
+                waitBannerAnimation:false,
+                progressBar:false
+            });
+
+            !function(){
+                var map=[]
+                        ,names=[]
+                        ,win=$(window)
+                        ,header=$('header')
+                        ,currClass
+                $('.content').each(function(n){
+                    map[n]=this.offsetTop
+                    names[n]=$(this).attr('id')
+                })
+                win
+                        .on('scroll',function(){
+                            var i=0
+                            while(map[i++]<=win.scrollTop());
+                            if(currClass!==names[i-2])
+                                currClass=names[i-2]
+                            header.removeAttr("class").addClass(names[i-2])
+                        })
+            }();
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+            $("#site_brief_header").typed({
+                strings: [
+                    'Cloud Testing Solution',
+                    'Hybrid Automation Testing',
+                    'Web Based Test Case Management',
+                    'Defect Tracking'
+                ],
+                typeSpeed: 25,
+                backDelay: 750,
+//                loop: true,
+//                loopCount: false
+            });
+        });
+    </script>
 	</body>
 </html>

@@ -1,10 +1,8 @@
 /**/
-@import url(//fonts.googleapis.com/css?family=Signika:400,300,600,700);
-/* 'Signika', sans-serif */
-
 @import "../css/reset.css";
 @import "../css/grid.css";
 @import "../css/superfish.css";
+@import url(http://fonts.googleapis.com/css?family=Lato|Arvo|Ubuntu:400,700,400italic|Titillium+Web);
 
 input {
 	outline:  none !important;
@@ -26,7 +24,7 @@ text-decoration:none;
 
 
 body {
-	font: 13px/19px  Arial, Helvetica, sans-serif;
+	font: 13px/19px "Ubuntu", "Titillium Web", Arial, Helvetica, sans-serif;
 	color:#ecedef;
 	position:relative;
 	min-width:960px;
@@ -47,16 +45,22 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-family: 'Signika', sans-serif;
-	color: #e9c5ff;
+	/*font-weight: normal;*/
+	font-family: "Ubuntu", "Titillium Web", sans-serif;
+	color: #bbe3cb;
 }
 
 h2 {
-	font-size: 60px;
+	font-size: 4em;
 	padding-top: 101px;
 	line-height: 60px;
 	text-align: center;
+}
+
+span#site_brief_header {
+    text-align: center;
+    font-family: "Ubuntu", "Titillium Web", "Lato", "Arvo", sans-serif;
+    color: #fff;
 }
 
 h3 {
@@ -67,17 +71,17 @@ h3 {
 }
 h4 {
     font-size: 30px;
-    font-family: 'Georgia',serif;
+    font-family: "Ubuntu", "Titillium Web", "Lato", "Arvo", 'Georgia',serif;
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
     text-align: left;
-    color: #440c49;
+    color: #e8e4ac;
 
 }
 h5 {
     font-size: 20px;
-    font-family: serif;
+    font-family: "Lato", "Arvo", "Ubuntu", "Titillium Web", 'Georgia',serif;
     line-height: 20px;
     padding-top: 15px;
     text-align: left;
@@ -797,4 +801,40 @@ footer a:hover {
 }
 #toTop:hover {
 	background-position: right 0;
+}
+
+/* Animated blinking cursor for typed.js */
+#typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
