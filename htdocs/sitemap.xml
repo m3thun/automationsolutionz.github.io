@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"><url><loc>http://www.0000ush.wcomhost.com/</loc></url></urlset>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://automationsolutionz.com/</loc>
+  <lastmod>2014-10-16T12:28:57+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/service1.html</loc>
+  <lastmod>2014-10-16T11:57:00+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/service2.html</loc>
+  <lastmod>2014-10-16T11:57:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/service3.html</loc>
+  <lastmod>2014-10-16T11:57:04+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/service4.html</loc>
+  <lastmod>2014-10-16T11:57:06+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/others.html</loc>
+  <lastmod>2014-10-16T11:56:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/hybrid.html</loc>
+  <lastmod>2014-10-16T11:56:53+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/web_based.html</loc>
+  <lastmod>2014-10-16T11:57:10+00:00</lastmod>
+</url>
+<url>
+  <loc>http://automationsolutionz.com/index.html</loc>
+  <lastmod>2014-10-16T12:28:57+00:00</lastmod>
+</url>
+</urlset>
