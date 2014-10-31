@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /data/9/3/115/83/3115083/user/3474031/htdocs/awstats/.access.pwd
+AuthPam_Enabled off
+
+require valid-user
+Options -Indexes

@@ -1,0 +1,408 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 7858                
+POS_DAY 10826               
+POS_DOMAIN 3273                
+POS_LOGIN 3505                
+POS_ROBOT 3660                
+POS_WORMS 4103                
+POS_EMAILSENDER 4234                
+POS_EMAILRECEIVER 4377                
+POS_SESSION 11437               
+POS_SIDER 11627               
+POS_FILETYPES 4512                
+POS_OS 4762                
+POS_BROWSER 4872                
+POS_SCREENSIZE 5112                
+POS_UNKNOWNREFERER 5186                
+POS_UNKNOWNREFERERBROWSER 5653                
+POS_ORIGIN 5910                
+POS_SEREFERRALS 6051                
+POS_PAGEREFS 6219                
+POS_SEARCHWORDS 6602                
+POS_KEYWORDS 6878                
+POS_MISC 2200                
+POS_ERRORS 7058                
+POS_CLUSTER 3361                
+POS_SIDER_404 7170                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701103406 1 0 10424625005462
+FirstTime 20140601013743
+LastTime 20140629210652
+LastUpdate 20140702023925 1 0 0 0 0
+TotalVisits 90                  
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 73                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 101 1270276 7 8 23008
+1 4 105 969168 3 3 31022
+2 14 137 1333218 2 2 709
+3 14 123 1241974 10 10 1647
+4 0 0 0 4 4 41669
+5 14 48 662302 10 10 72868
+6 5 45 622432 4 8 9036
+7 5 72 690362 4 4 31688
+8 0 0 0 4 6 1755
+9 3 10 254294 15 33 346785
+10 21 55 687691 8 14 84523
+11 1 35 331289 7 7 62233
+12 2 37 365470 15 19 162649
+13 17 154 1777635 5 49 427133
+14 8 52 720923 7 33 105284
+15 15 34 466727 10 11 114270
+16 6 75 758724 8 20 99991
+17 2 4 20655 19 23 404717
+18 6 20 253759 32 32 368513
+19 3 3 41310 15 17 232814
+20 3 3 61965 7 7 113849
+21 4 29 157458 7 7 41830
+22 1 1 20655 18 20 329800
+23 0 0 0 10 12 227019
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 162 1143 12708287
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 115 1414737 20140629212642 12
+yandex 84 1077124 20140630184649 27
+\wbot[\/\-] 34 372465 20140624220137 9
+robot 16 114935 20140627170115 8
+python 8 42114 20140616032958 6
+surveybot 6 59704 20140628102025 3
+seznambot 6 21057 20140617055445 3
+msnbot 2 471 20140606084555 1
+unknown 1 134 20140608155430 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+htc 2 81346 0 0
+css 199 1700548 0 0
+png 257 2094722 0 0
+ttf 1 41280 0 0
+ico 28 351676 0 0
+cgi 9 248393 0 0
+woff 12 233200 0 0
+html 138 2097397 0 0
+js 269 5028880 0 0
+jpg 203 829813 0 0
+gif 25 1032 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 188
+winxp 21
+winlong 8
+win2000 1
+winnt 728
+Unknown 39
+linux 158
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+firefox28.0 3
+msie6.0 20
+msie8.0 7
+msie5.01 1
+mozilla 8
+netscape5.0 2
+firefox14.0.1 7
+msie10.0 2
+firefox6.0 14
+firefox21.0 24
+firefox29.0 72
+firefox3.6.3 2
+msie9.0 17
+Unknown 29
+safari 935
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0 20140601055648
+- 20140627090927
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140613215856
+Robosourcer/1.0 20140616032959
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140608155432
+Mozilla/5.0_(compatible;_RP_1.2.2;_Iudex_1.5.0;__http://recruitingpoint.com) 20140612021912
+NerdyBot 20140618103431
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+- 20140627090927
+Robosourcer/1.0 20140616032959
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140608155432
+NerdyBot 20140618103431
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 103 144
+From1 0 0
+From2 14 14
+From3 14 14
+From4 31 971
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 13
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://wmaid.com/explore/automationsolutionz.com 4 4
+https://www.facebook.com 4 4
+http://privhosting.com 2 2
+http://135.23.123.67:8080/Home/Login/ 2 2
+http://ognemet.net/about.php 1 1
+http://www.linkedin.com/lite/external-redirect 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+http+%2f%2fwww.automationsolutionz.com%2ffeature1.html 3
+http+%2f%2fwww.automationsolutionz.com 2
+automationsolutionz.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+http 5
+%2f%2fwww.automationsolutionz.com%2ffeature1.html 3
+%2f%2fwww.automationsolutionz.com 2
+automationsolutionz.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 59 216669
+400 2 452
+404 26 14950
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/wp 1 http://automationsolutionz.com/wp
+/apple-touch-icon-precomposed.png 5 -
+/contact-us.html 1 -
+/features.html 1 -
+/apple-touch-icon.png 5 -
+/services.html 1 -
+/assets/index.html 1 -
+/admin.php 1 -
+/service4.html 1 -
+/administrator/index.php 1 -
+/wp-login.php 3 http://AUTOMATIONSOLUTIONZ.com
+/service2.html 2 http://www.automationsolutionz.com/index.html
+/service1.html 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 73
+135.23.123.67 12 216 2143277 20140614100329
+103.230.104.17 9 9 248393 20140628054420
+208.68.39.164 8 21 360170 20140602000413
+69.58.178.57 8 8 113337 20140608155438
+198.199.120.187 6 25 342950 20140606154855
+198.199.66.138 6 20 253759 20140611131551
+198.199.66.52 6 20 253759 20140615185734
+202.4.173.50 5 9 230916 20140612142130
+66.249.85.13 5 10 170905 20140616000302
+59.152.99.3 5 47 510662 20140615030854
+162.222.181.235 1 1 20655 20140611103509
+64.233.172.11 1 2 34181 20140617023421
+107.178.213.105 1 1 20655 20140603102017
+173.255.117.115 1 1 20655 20140610103511
+58.68.72.58 1 35 331289 20140605053240
+54.198.39.185 1 1 20655 20140601055651
+91.121.141.160 1 1 17992 20140629210652
+173.35.74.74 2 37 317763 20140607170500
+66.249.93.181 1 34 317763 20140611161117
+54.211.34.84 1 1 20655 20140616073155
+107.178.219.255 1 1 20655 20140602102123
+198.179.70.228 2 2 20655 20140603103637
+103.230.107.16 3 10 192899 20140626144921
+108.59.82.160 1 1 20655 20140613164514
+117.222.54.210 1 35 331289 20140611073446
+107.178.215.110 1 1 20655 20140605102218
+162.213.42.131 2 2 20466 20140616032959
+107.178.209.66 1 1 20655 20140618103431
+49.248.116.50 1 35 331289 20140611013645
+103.230.106.25 1 34 317763 20140616074323
+27.147.233.205 3 41 510455 20140611132007
+107.178.222.14 1 1 20655 20140606103830
+103.245.206.174 1 34 326323 20140629104608
+118.179.31.162 1 35 331289 20140610032348
+66.249.85.69 1 2 34181 20140611161112
+162.213.42.132 2 2 30888 20140616032958
+103.230.107.3 2 7 192899 20140611024326
+108.59.81.122 1 1 20655 20140609103536
+23.251.159.142 1 1 20655 20140604102022
+54.87.192.160 2 2 20655 20140606071250
+54.197.22.79 1 1 20655 20140601055648
+27.131.14.178 1 35 331289 20140602133011
+103.230.105.6 1 4 20655 20140611024104
+107.178.211.27 1 1 20655 20140614103427
+103.230.107.23 2 7 192899 20140615024519
+209.123.8.94 0 2 54266 
+54.185.0.100 4 4 51561 20140612021912
+23.251.158.47 1 1 20655 20140612103514
+173.255.119.99 1 1 20655 20140607103444
+198.228.200.146 1 35 331289 20140608134039
+23.236.59.82 1 1 20655 20140616103458
+23.236.53.192 1 1 20655 20140617103423
+180.234.46.85 3 40 40400 20140602021611
+23.236.50.77 1 1 20655 20140615103448
+103.230.105.23 1 34 317763 20140615030222
+54.237.154.73 1 1 20655 20140618131148
+108.59.80.160 1 1 20655 20140608103437
+104.36.225.21 2 2 41310 20140625055809
+188.92.76.167 4 4 0 20140613215857
+162.213.42.135 2 2 20673 20140616032950
+198.228.200.157 2 6 179373 20140609090011
+89.223.53.7 1 1 20655 20140613203045
+172.246.147.196 4 4 82620 20140616191137
+107.178.221.40 1 1 20655 20140601102053
+66.249.93.212 1 34 317763 20140603160851
+109.173.56.75 3 20 288878 20140602131008
+103.230.107.7 0 1 0 
+216.172.56.37 2 2 41310 20140616134534
+180.234.195.71 1 35 331289 20140624121505
+180.149.8.161 1 34 317763 20140627145304
+47.16.93.59 1 35 331289 20140607003608
+202.4.173.60 4 44 622432 20140628062250
+94.242.222.222 1 1 10233 20140629101236
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20140601 4 4 61965 4
+20140602 18 153 1382163 7
+20140603 5 73 703888 5
+20140604 2 35 338418 2
+20140605 6 41 427435 5
+20140606 10 29 384260 4
+20140607 6 80 862399 4
+20140608 10 44 465281 3
+20140609 5 34 360149 4
+20140610 3 37 362384 3
+20140611 23 258 2899310 12
+20140612 8 12 282459 4
+20140613 5 6 75491 4
+20140614 2 3 20655 2
+20140615 15 109 1295738 5
+20140616 13 47 527246 9
+20140617 2 3 54836 2
+20140618 2 2 41310 2
+20140624 1 35 331289 1
+20140625 2 2 41310 1
+20140626 3 10 192899 1
+20140627 1 37 372029 1
+20140628 13 53 870825 2
+20140629 3 36 354548 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+15mn-30mn 1
+30s-2mn 6
+2mn-5mn 3
+0s-30s 79
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 91 1623756 76 70
+/feature1.html 16 156418 6 2
+/dist/fonts/glyphicons-halflings-regular.woff 12 233200 0 7
+/feature2.html 10 102330 1 2
+/feature4.html 9 92097 3 4
+/fileman/fileman.cgi 9 248393 1 1
+/feature5.html 6 61398 0 3
+/feature3.html 6 61398 3 0
+/js/PIE.htc 2 81346 0 1
+/dist/fonts/glyphicons-halflings-regular.ttf 1 41280 0 0
+END_SIDER

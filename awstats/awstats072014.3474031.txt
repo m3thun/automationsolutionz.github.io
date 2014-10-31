@@ -1,0 +1,373 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 7657                
+POS_DAY 9428                
+POS_DOMAIN 3247                
+POS_LOGIN 3477                
+POS_ROBOT 3632                
+POS_WORMS 4079                
+POS_EMAILSENDER 4210                
+POS_EMAILRECEIVER 4353                
+POS_SESSION 10002               
+POS_SIDER 10198               
+POS_FILETYPES 4488                
+POS_OS 4717                
+POS_BROWSER 4841                
+POS_SCREENSIZE 5071                
+POS_UNKNOWNREFERER 5145                
+POS_UNKNOWNREFERERBROWSER 5487                
+POS_ORIGIN 5701                
+POS_SEREFERRALS 5839                
+POS_PAGEREFS 5996                
+POS_SEARCHWORDS 6261                
+POS_KEYWORDS 6413                
+POS_MISC 2199                
+POS_ERRORS 6472                
+POS_CLUSTER 3333                
+POS_SIDER_404 6587                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801140850 1 0 8195792773643
+FirstTime 20140701103406
+LastTime 20140731181739
+LastUpdate 20140802023054 1 0 0 0 0
+TotalVisits 50                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 43                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 4 69476 15 23 230422
+1 1 2 32176 9 14 168561
+2 3 36 363931 3 4 129420
+3 12 16 373699 12 19 161846
+4 13 13 382777 14 15 87833
+5 2 2 35984 9 12 63893
+6 0 0 0 18 36 174528
+7 1 1 17992 5 11 53740
+8 1 2 30234 2 5 105129
+9 3 8 236347 11 13 41090
+10 27 97 1143311 24 25 175440
+11 14 57 873317 3 3 0
+12 1 2 0 4 6 4519
+13 8 43 639655 4 17 201938
+14 9 12 89374 6 7 89466
+15 32 231 2702695 9 90 526941
+16 39 180 2168795 68 75 77467
+17 4 7 37730 5 6 30780
+18 4 4 75890 4 5 20770
+19 2 4 99150 28 46 583109
+20 0 0 0 11 12 112040
+21 0 0 0 3 3 134
+22 11 11 87654 9 13 231085
+23 0 0 0 15 17 258898
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 190 732 9460187
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 153 1446145 20140730014510 19
+\wbot[\/\-] 53 573466 20140731050143 3
+yandex 42 514940 20140730204728 14
+java 36 329486 20140706152009 0
+robot 34 162005 20140721152246 14
+unknown 10 1340 20140722162926 10
+surveybot 4 35626 20140722091446 2
+spider 2 18784 20140725150910 1
+netcraft 1 16708 20140710141703 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 120 991420 0 0
+png 150 1860102 0 0
+ico 17 229942 0 0
+cgi 58 1743931 0 0
+woff 7 139920 0 0
+php 2 18 0 0
+html 123 1409172 0 0
+js 146 2708182 0 0
+jpg 94 376898 0 0
+gif 15 602 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 7
+winlong 12
+winxp 3
+win2003 11
+winnt 515
+linuxubuntu 34
+Unknown 109
+linux 41
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie8.0 15
+msie6.0 1
+firefox1.0 1
+firefox17.0 1
+firefox26.0 3
+msie7.0 11
+firefox14.0.1 10
+firefox16.0 49
+firefox6.0 11
+firefox18.0 1
+firefox 1
+firefox27.0 1
+Unknown 41
+safari 586
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.2141_Mobile_Safari/537.35_ 20140707153102
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140707222959
+panscient.com 20140722162854
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140707222959
+panscient.com 20140722162854
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 83 122
+From1 0 0
+From2 13 14
+From3 4 4
+From4 90 592
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 13 14
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://l.facebook.com/l.php 2 2
+https://www.linkedin.com 1 1
+http://name911.com/research/automationsolutionz.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 40 26400
+206 76 389199
+404 26 14950
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 22
+/assets/js/holder.js 1 -
+/dist/js/Popover%20requires%20tooltip.js 2 -
+/images/testing.png 1 http://www.automationsolutionz.com/feature1.html
+/text/css 1 -
+/assets/js/image/png 1 -
+/g,mt=RegExp( 1 -
+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/= 1 -
+/js/text/xml 1 -
+/contact-us.html 1 -
+/images/prev.png 1 http://www.automationsolutionz.com/
+/Our_product.html 1 -
+/assets/js/text/css 1 -
+/services.html 1 -
+/text/xml 1 -
+/a 2 -
+/image/png 1 -
+/images/blank.gif 1 http://www.automationsolutionz.com/
+/images/prevnext_bg.png 1 http://www.automationsolutionz.com/
+/assets/js/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/= 1 -
+/images/next.png 1 http://www.automationsolutionz.com/
+/holder.js 2 -
+/js/bat/MailHandler.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 43
+103.230.104.3 24 28 747114 20140712041356
+103.230.107.29 22 62 927904 20140707154752
+96.242.31.228 20 40 526500 20140722162854
+103.230.107.11 18 59 720293 20140701104257
+103.230.106.8 13 45 618576 20140726174002
+69.58.178.57 11 11 87654 20140707223043
+58.97.141.84 9 47 640891 20140712111358
+23.239.196.71 8 8 147428 20140731181739
+135.23.123.67 8 76 946898 20140719130622
+38.100.21.67 8 11 70724 20140713145714
+188.40.39.204 1 1 17992 20140704072433
+103.231.161.18 1 30 312271 20140725150831
+208.65.73.141 1 34 326323 20140707152814
+66.249.84.26 4 7 113236 20140723010003
+96.227.124.38 1 1 18650 20140723102736
+66.249.84.53 1 2 31518 20140701115222
+93.186.202.198 1 2 49575 20140707190145
+94.242.222.44 1 1 9362 20140714044250
+74.52.245.146 1 1 18650 20140719142132
+54.91.248.255 1 1 19080 20140727181617
+66.249.81.84 1 2 30234 20140709084634
+50.112.192.98 1 1 18650 20140717170728
+103.230.107.9 1 30 312271 20140720160636
+66.249.80.2 1 29 298745 20140720161157
+103.230.105.11 3 3 20097 20140701104809
+62.181.213.66 0 1 55662 
+94.242.222.29 1 1 10233 20140709111550
+103.230.106.27 2 4 17992 20140706152009
+144.76.155.8 1 2 49575 20140707190159
+207.219.69.187 3 7 180685 20140728094251
+172.246.147.196 2 2 37300 20140720161714
+103.230.104.8 1 2 0 20140726175454
+54.184.60.147 1 1 18650 20140723180336
+103.242.218.2 5 100 1099125 20140707153112
+54.193.136.71 1 1 17992 20140703103449
+54.184.246.123 1 1 19080 20140731131420
+180.149.12.178 4 37 502946 20140730113000
+180.149.31.142 1 2 0 20140712123902
+69.67.52.179 1 1 19080 20140730154514
+49.248.116.42 1 34 326201 20140710021949
+54.227.167.118 1 1 19080 20140728021754
+202.64.63.224 2 2 37300 20140717104347
+198.50.28.186 1 1 18650 20140716022220
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20140701 23 98 1098231 4
+20140703 3 3 53976 2
+20140704 4 42 653631 2
+20140706 4 6 53976 2
+20140707 38 170 1904517 6
+20140708 1 1 16708 1
+20140709 2 3 40467 2
+20140710 1 34 326201 1
+20140712 34 77 1388005 3
+20140713 8 11 70724 1
+20140714 3 3 46662 2
+20140716 1 1 18650 1
+20140717 3 3 55950 2
+20140719 8 43 639225 2
+20140720 5 63 680492 4
+20140722 21 42 558676 2
+20140723 3 4 69476 3
+20140725 1 30 312271 1
+20140726 14 47 618576 2
+20140727 1 1 19080 1
+20140728 4 8 199765 2
+20140730 5 38 522026 2
+20140731 3 4 112902 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 1
+0s-30s 37
+30s-2mn 5
+15mn-30mn 3
+2mn-5mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 63 1057564 44 37
+/fileman/fileman.cgi 58 1743931 2 1
+/feature1.html 13 97090 2 2
+/feature2.html 9 92097 1 1
+/dist/fonts/glyphicons-halflings-regular.woff 7 139920 0 3
+/service4.html 7 8974 1 0
+/feature4.html 6 61398 0 2
+/feature3.html 6 61398 0 1
+/service1.html 6 9642 0 1
+/service3.html 5 2785 0 0
+/feature5.html 1 10233 0 0
+/bat/MailHandler.php 2 18 0 0
+/web_based.html 2 5501 0 1
+/service2.html 5 2490 0 1
+END_SIDER
